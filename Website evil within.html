@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<p>
+    <!--haut du 1er site avec le titre de la page,configurations et lien vers le code css-->
+    <meta charset="UTF-8">
+    <!--fait en sorte que la page soit responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards of The Evil Within</title> 
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    
+
+</head>
+</p>
+<!--corps de la page,cad le contenu-->
+<body>
+<header>
+    <img id="logo" src="logo.png" alt="Logo" width="150">
+</header>
+<section class="hero">
+    <div class="hero-content">
+        <div class ="texte" ><h2>Bon… Je sais, c'est bientôt Noël, on n'est plus vraiment dans l'ambiance d'Halloween, ni des jeux d'horreur. Mais honnêtement, y a-t-il vraiment un moment précis pour jouer à The Evil Within ? Bien sûr que non ! C'est toujours le bon moment pour plonger dans ce jeu d'horreur culte, incarnation parfaite pour des soirées où frissons et suspense sont au rendez-vous. Que diriez-vous de collectionner et d'échanger des cartes uniques inspirées de cet univers sombre et… perturbant ? Mais prenez garde… ne laissez pas la folie vous contaminer !</h2>
+            
+    </div>
+</section>
+
+<div class ="main">
+<div class="cartes">
+    <!--texte de présentation-->
+
+<!-- Onglets -->
+<ul class="tabs">
+    <li><button type="button" class="tab tab-active">Cartes Standards</button></li>
+    <li><button type="button" class="tab">Cartes Élites</button></li>
+    <li><button type="button" class="tab">Cartes Légendaires</button></li>
+    <li><button type="button" class="tab">Échange</button></li>
+</ul>
+
+<!-- Contenus des onglets -->
+<div class="tab-content">
+    <div class="content active">
+    <h1>Le personnage présent sur les cartes est Juli Kidman, collègue et amie de l'inspecteur Sebastian Castellanos. Elle symbolise les Cartes Standards.</h1>
+    <img src="carteLili.png" alt="Carte Lili ">
+    <img src="carteSebastian.png" alt="Carte Sebastian">
+    <img src="carteCris.png" alt="Carte Cris">
+    <img src="carteGriffure.png" alt="Carte Griffure">
+    <img src="carteTatiana.png" alt="Carte Tatiana">
+    <img src="carteJulie.png" alt="Carte Julie">
+    </div>
+
+    <!-- Contenu pour Menu 2 -->
+    <div class="content">
+        <h1>Le personnage présent sur les cartes est Joseph Oda, le fidèle compagnon de Sebastian (et le goat) du premier jeu. Il symbolise les Cartes Élites.</h1>
+        <img src="carteYukiko.png" alt="carte Yukiko">
+        <img src="carteLiam.png" alt="carte Liam">
+        <img src="carteBarbed.png" alt="carte Barbed">
+        <img src="carteAsile.png" alt="carte Asile">
+        <img src="carteOeil.png" alt="carte Oeil">
+        <img src="carteCerveau.png" alt="carte Cerveau">
+    </div>
+
+    <!-- Contenu pour Menu 3 -->
+    <div class="content">
+        <h1>Le personnage présent sur les cartes est Ruvik, le boss ultime du premier jeu et créateur du STEM. Il symbolise les Cartes Légendaires.</h1>
+        <img src="carteStephano.png" alt="carte Stephano">
+        <img src="carteTheodore.png" alt="carte Théodore">
+        <img src="carteGardien.png" alt="carte Gardien">
+        <img src="carteLaura.png" alt="carte Laura">
+    </div>
+    <div class="content">
+        <div class="message-error">
+            <ul></ul>
+        </div>
+        <div class="message-success"></div>
+    
+    <div class="container">
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="pseudo"><h2>Pour pouvoir echanger vos cartes,vous devez vous inscrire.</h2></label>
+                <input type="text" name="pseudo" id="pseudo" placeholder=" Votre pseudo">
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Votre email">
+            </div>
+            <div>
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Votre mot de passe">
+            </div>
+            <div>
+                <label for="password2"></label>
+                <input type="password" name="password2" id="password2" placeholder="Confirmer le mot de passe">
+        </div>
+        <div> 
+            <h4> Acceptez nos condtions d'utilisations</h4> <input type ="checkbox" name="questions" >
+            <h4> Acceptez nos Cookies</h4><input type ="checkbox" name="questions" >
+            <h4> Acceptez de recevoir notre newslatter par mail et vous tenir au courant des mises à jours<input type ="checkbox" name="questions" ></h4>
+            <h4> Restez connecté</h4><input type ="checkbox" name="questions" >
+        </div>
+        <button type="submit">S'inscrire</button>
+    </form>
+        </form>
+    </div>
+</div>
+
+
+</div>
+     <!-- Conteneur pour les boutons -->
+     <div class="boutons2">
+        <!-- Boutons placés au-dessus de l'image -->
+        <!--utilisation de la fonction bouton de html qui quand on clique dessus (foncton on click) emmene directement vers le lien de la vidéo.-->
+        <button class="style" onclick="window.location.href='https://youtu.be/f6Z0o9UnDOs?si=eBuFauvrTdLDuGwo';">
+            <h3>Pour les vrais fans :</h3>
+            Explication plus approfondie de The Evil Within 1 (SPOIL):
+            Lien Video
+        </button>
+        <button class="style" onclick="mode()"><h3>Light-Mode</h3></button> 
+        </button>
+        <button class="style" onclick="window.location.href='En route pour The Evil within3 site2.html';" title="Direction l'autre page html">
+            <h3>En route pour The Evil Within 3 (Théories,Mystères...) :</h3> 
+            2eme page html
+        </button>
+        
+    </div>
+    </div>
+</div>
+</h4>
+<!-- bas de la page appelée footer(="pied de la page")-->
+<footer class = "footer">
+    <div class="bas de page"></div> 
+    <img width="1600" src="bandeau2.png" alt="footer">
+    <!-- Implémentation de GIF (même système que les images, seul le format change) -->
+
+    <img src="dark.gif" alt="GIF Gauche" class="gif-placement gif-gauche">
+    <img src="jojo.gif" alt="GIF droite" class="gif-placement gif-droite">
+        <div class="liens">
+            <!--j'ai mis des petits liens-->
+        <a href="https://documents.bethesda.net/fr/terms-of-service">Conditions d'utilisation</a>
+        <a href="https://img-3.journaldesfemmes.fr/kFUkynkAlBq7qpYHUauBgoyAot4=/800x600/265beaca4e1d41d7880135956f2af49d/ccmcms-jdf/39802147.jpg">Cookies</a>
+        </div>
+    </div>
+</footer>
+    <script src="main1.js"> defer</script>
+</body>
+</html>
+
+
+</div>
+</p>
+</html>
